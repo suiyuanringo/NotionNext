@@ -70,6 +70,7 @@ const LayoutBase = (props) => {
 
   return (
         <div id='theme-next'>
+            <AdSlot type='native' />
             {/* SEO相关 */}
             <CommonHead meta={meta}/>
             <Style/>
@@ -106,7 +107,7 @@ const LayoutBase = (props) => {
 
                 {/* 右侧栏样式 */}
                 {CONFIG.RIGHT_BAR && <SideAreaRight targetRef={targetRef} slot={rightAreaSlot} {...props} />}
-                  <AdSlot type='native' />
+                  
             </main>
 
             {/* 右下角悬浮 */}
