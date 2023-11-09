@@ -106,6 +106,7 @@ const LayoutBase = (props) => {
 
                 {/* 右侧栏样式 */}
                 {CONFIG.RIGHT_BAR && <SideAreaRight targetRef={targetRef} slot={rightAreaSlot} {...props} />}
+                  <AdSlot type='native' />
             </main>
 
             {/* 右下角悬浮 */}
