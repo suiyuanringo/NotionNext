@@ -70,7 +70,6 @@ const LayoutBase = (props) => {
 
   return (
         <div id='theme-next'>
-            <AdSlot type='native' />
             {/* SEO相关 */}
             <CommonHead meta={meta}/>
             <Style/>
